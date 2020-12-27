@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Pizza Dror - Pizza with great value!</title>
+  </head>
+  <body>
+    <h1>היי מה נשמע</h1>
+    <h2 class="toppings">איזו פיצה טעימה תרצו</h2>
+    <div id="status">כאן יהיה הסטטוס</div>
+    <h3>יש לנו המון פיצות טעימות</h3>
+    <div class="window">
+      <li id="pepperoni" class="toppings">פיצה פפרוני</li>
+      <li id="mushrooms" class="toppings">פיצה פטריות</li>
+      <li id="olives" class="toppings">פיצה זיתים</li>
+      <li id="olives" class="toppings">פיצה עם המון תוספות חבל לכם על הזמן</li>
+    </div>
+
+    <div id="orders" class="window">
+      <h1>הזמנות</h1>
+      <h3>איך תרצו לשלם?</h3>
+      <div id="options">
+        <div>
+          <div onclick="pay()" class="paymentTitle">כרטיס אשראי</div>
+          <img src="creditcard.jpg" width="100px" />
+        </div>
+        <div>
+          <div class="paymentTitle">צ׳ק</div>
+          <img src="check.jpg" width="100px" />
+        </div>
+        <div>
+          <div class="paymentTitle">מזומן</div>
+          <img src="cash.jpg" width="100px" />
+        </div>
+      </div>
+    </div>
+
+    <a href="http://www.drorisrael.org.il" target="_blank"> לינק לאתר לאחר</a>
+  </body>
+  <script src="app.js"></script>
+</html>

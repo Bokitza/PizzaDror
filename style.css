@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  direction: rtl;
+  background: linear-gradient(
+    90deg,
+    rgb(7, 64, 251) 0%,
+    rgb(29, 107, 253) 50%,
+    rgb(4, 169, 245) 100%
+  );
+  color: rgb(255, 255, 255);
+  text-shadow: 12px 13px 12px black;
+}
+
+div {
+}
+
+#mushrooms {
+  color: rgb(7, 4, 4);
+}
+
+#olives {
+  color: honeydew;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+.window {
+  text-align: right;
+  padding: 16px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.192);
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 2px 2px 22px black;
+  transition: 1s;
+  margin-bottom: 28px;
+}
+
+.window:hover {
+  background-color: rgba(224, 132, 11, 0.288);
+  transform: scale(1.2, 1.2);
+}
+
+#options {
+  width: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.paymentTitle {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #options {
+    width: fit-content;
+    display: block;
+  }
+}
